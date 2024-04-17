@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.font-Raleway {
+  font-family: "Raleway", sans-serif !important;
+}
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.my-container {
+  max-width: 1164px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px !important ;
+  padding-right: 12px !important;
+}
+.mt_14 {
+  margin-top: 14px;
+}
+.mt_70 {
+  margin-top: 70px !important;
+}
+.mt_50 {
+  margin-top: 50px;
+}
+.opacity_80 {
+  opacity: 0.8;
+}
+.get-btn {
+  padding: 14px 24px;
+  background: #f46e00;
+  color: white;
+  border-radius: 69px;
+  border: 1px solid #f46e00;
+}
+.get-btn:hover {
+  padding: 14px 24px;
+  background: white;
+  color: #f46e00;
+  border-radius: 69px;
+  border: 1px solid #f46e00;
+}
+.px_10 {
+  padding-left: 10px !important ;
+  padding-right: 10px !important;
+}
+.Outcomes {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+.money-card {
+  border: 1px solid #2c2b2a;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px 20px 49px 20px;
+  transition: all 300ms linear;
+}
+.money-card:hover {
+  border: 1px solid #f46e00;
+  border-radius: 8px;
+  background: #f46e00;
+  padding: 30px 20px 49px 20px;
+}
+.money-card.money-img:hover {
+  fill: black;
+}
+@media (max-width: 991.98px) {
+  .mt_20 {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .mt-20 {
+    margin-top: 20px !important;
+  }
+}

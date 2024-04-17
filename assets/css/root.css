@@ -1,0 +1,139 @@
+:root {
+  --font-xsm: 14px;
+  --font-xs: 16px;
+  --font-sm: 20px;
+  --font-md: 24px;
+  --font-lg: 36px;
+  --font-xl: 40px;
+  --font-2xl: 48px;
+  --font-3xl: 54px;
+  --font-4xl: 57px;
+  --orange: #f46e00;
+  --light-white: #fffdfc;
+  --grey: #343434;
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-xsm: 14px;
+    --font-xs: 16px;
+    --font-sm: 20px;
+    --font-md: 24px;
+    --font-lg: 36px;
+    --font-xl: 40px;
+    --font-2xl: 48px;
+    --font-3xl: 54px;
+    --font-4xl: 57px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-xsm: 14px;
+    --font-xs: 16px;
+    --font-sm: 20px;
+    --font-md: 24px;
+    --font-lg: 36px;
+    --font-xl: 40px;
+    --font-2xl: 48px;
+    --font-3xl: 54px;
+    --font-4xl: 57px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-xsm: 14px;
+    --font-xs: 14px;
+    --font-sm: 20px;
+    --font-md: 24px;
+    --font-lg: 36px;
+    --font-xl: 40px;
+    --font-2xl: 48px;
+    --font-3xl: 54px;
+    --font-4xl: 57px;
+  }
+}
+
+.font-xxs {
+  font-size: var(--font-xxs);
+}
+
+.font-xs {
+  font-size: var(--font-xs) !important;
+}
+.font-xsm {
+  font-size: var(--font-xsm) !important;
+}
+
+.font-sm {
+  font-size: var(--font-sm);
+}
+
+.font-md {
+  font-size: var(--font-md);
+}
+
+.font-md-large {
+  font-size: var(--font-md-large);
+}
+
+.font-lg {
+  font-size: var(--font-lg);
+}
+
+.font-xl {
+  font-size: var(--font-xl);
+}
+
+.font-lg {
+  font-size: var(--font-lg);
+}
+
+.font-xl {
+  font-size: var(--font-xl);
+}
+
+.font-2xl {
+  font-size: var(--font-2xl);
+}
+
+.font-3xl {
+  font-size: var(--font-3xl);
+}
+
+.font-4xl {
+  font-size: var(--font-4xl);
+}
+
+.font-5xl {
+  font-size: var(--font-5xl);
+}
+
+.font-6xl {
+  font-size: var(--font-6xl);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+.text-orange {
+  color: var(--orange);
+}
+
+.text-light-white {
+  color: var(--light-white);
+}
+.bg-orange {
+  background-color: var(--orange) !important;
+}
+
+.lh_120 {
+  line-height: 120%;
+}
+.lh_160 {
+  line-height: 160%;
+}
+.lh_117 {
+  line-height: 117%;
+}
