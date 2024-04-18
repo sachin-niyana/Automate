@@ -21,115 +21,32 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav></nav>
-    <!-- Header -->
-    <!-- <section class="bg-black opacity_80">
-      <div class="my-container">
-        <div class="d-flex justify-content-between">
-          <div>
-            <p class="font-Raleway">
-              We build custom acquisition engines that close new clients, and
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Outcomes  -->
-    <section class="bg-black opacity_80">
-      <div class="my-container Outcomes">
-        <h3
-          class="text-white text-center font-xl mb-0 fw-bold font-Raleway lh_120"
-        >
-          Outcomes to <span class="text-orange">expect</span>
-        </h3>
-        <div class="row mt_70 d-flex justify-content-center">
-          <div class="col-lg-4 col-sm-6 px_10">
-            <div class="money-card position-relative">
-              <img
-                class="money-img"
-                src="./assets/images/svg/money.svg"
-                alt="money"
-              />
-              <img
-                class="position-absolute bottom-0 end-0"
-                src="./assets/images/svg/shadow.svg"
-                alt="shadow"
-              />
-              <p
-                class="font-Raleway fw-bold text-white mt-4 font-xs mb-0 lh_117"
-              >
-                Acquire More Clients On Auto-Pilot
-              </p>
-              <p
-                class="opacity_70 text-white font-Raleway fw-normal font-xsm mt_14 mb-0 lh_160"
-              >
-                We’ll build you a fully automated client-acquisition system that
-                attracts complete strangers and turns them into paid invoices
-                and raving fans - without you doing any of the work. 
-              </p>
+     <div class="bg-black opacity_80 position-sticky top-0 z-3">
+        <div class="container">
+            <div class="py-3 d-flex justify-content-between align-items-center">
+                <h3 class="text-white mb-0">Logo</h3>
+                <ul class="mb-0 ps-0 d-md-flex gap-3 text-white d-none d-md-block">
+                    <li>Home</li>
+                    <li>main</li>
+                    <li>content</li>
+                    <li>Class</li>
+                    <li>fees</li>
+                </ul>
+                <button id="openNav" onclick="openNav()" class="menu d-md-none" type="button">&#9776</button>
+                <div id="Menu" class="d-md-none navbar1 d-flex justify-content-center align-items-center">
+                    <button class="menu position-absolute closbtn" onclick="closeNav()" type="button">&times;</button>
+                    <ul class="mb-0 ps-0 d-flex flex-column gap-3 text-white">
+                        <li onclick="closeNav()">Home</li>
+                        <li onclick="closeNav()">main</li>
+                        <li onclick="closeNav()">content</li>
+                        <li onclick="closeNav()">Class</li>
+                        <li onclick="closeNav()">fees</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 px_10 mt-20">
-            <div class="money-card position-relative">
-              <img
-                class="money-img"
-                src="./assets/images/svg/money.svg"
-                alt="money"
-              />
-              <img
-                class="position-absolute bottom-0 end-0"
-                src="./assets/images/svg/shadow.svg"
-                alt="shadow"
-              />
-              <p
-                class="font-Raleway fw-bold text-white mt-4 font-xs mb-0 lh_117"
-              >
-                Acquire More Clients On Auto-Pilot
-              </p>
-              <p
-                class="opacity_70 text-white font-Raleway fw-normal font-xsm mt_14 mb-0 lh_160"
-              >
-                We’ll build you a fully automated client-acquisition system that
-                attracts complete strangers and turns them into paid invoices
-                and raving fans - without you doing any of the work. 
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 px_10 mt_20">
-            <div class="money-card position-relative">
-              <img
-                class="money-img"
-                src="./assets/images/svg/money.svg"
-                alt="money"
-              />
-              <img
-                class="position-absolute bottom-0 end-0"
-                src="./assets/images/svg/shadow.svg"
-                alt="shadow"
-              />
-              <p
-                class="font-Raleway fw-bold text-white mt-4 font-xs mb-0 lh_117"
-              >
-                Acquire More Clients On Auto-Pilot
-              </p>
-              <p
-                class="opacity_70 text-white font-Raleway fw-normal font-xsm mt_14 mb-0 lh_160"
-              >
-                We’ll build you a fully automated client-acquisition system that
-                attracts complete strangers and turns them into paid invoices
-                and raving fans - without you doing any of the work. 
-              </p>
-            </div>
-          </div>
         </div>
-        <div class="d-flex justify-content-center mt_50">
-          <button class="get-btn font-Raleway fw-bold font-xsm">
-            Get a price
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- acquisition  -->
+    </div>
+    <!-- acquisition section  -->
     <section class="bg-white">
       <div class="my-container acquisition">
         <h3
@@ -146,11 +63,11 @@
         </p>
         <div class="row mt_120 d-flex justify-content-center">
           <div class="col-lg-4 col-sm-6 px_10">
-            <div class="number-card">
+            <div class="number-card h-100">
               <div class="number-bg ms-3">
                 <p class="text-white fw-bold font-Raleway font-lg mb-0">01</p>
               </div>
-              <div class="border-card py-4 ps-3 pe_10 h-100">
+              <div class="py-4 ps-3 pe_10 h-100">
                 <p class="font-Raleway fw-bold text-gray font-sm mb-0 lh_117">
                   Create A Cold-Friendly Offer
                 </p>
@@ -171,12 +88,12 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 px_10">
-            <div class="number-card">
+          <div class="col-lg-4 col-sm-6 px_10 mt-20">
+            <div class="number-card h-100">
               <div class="number-bg ms-3">
                 <p class="text-white fw-bold font-Raleway font-lg mb-0">02</p>
               </div>
-              <div class="border-card py-4 ps-3 pe_10 h-100">
+              <div class="py-4 ps-3 pe_10 h-100">
                 <p class="font-Raleway fw-bold text-gray font-sm mb-0 lh_117">
                   Transform Your Marketing Systems
                 </p>
@@ -204,12 +121,12 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 px_10">
-            <div class="number-card">
+          <div class="col-lg-4 col-sm-6 px_10 mt_20">
+            <div class="number-card h-100">
               <div class="number-bg ms-3">
                 <p class="text-white fw-bold font-Raleway font-lg mb-0">03</p>
               </div>
-              <div class="border-card py-4 ps-3 pe_10 h-100">
+              <div class="py-4 ps-3 pe_10 h-100">
                 <p class="font-Raleway fw-bold text-gray font-sm mb-0 lh_117">
                   Create A Cold-Friendly Offer
                 </p>
@@ -239,6 +156,145 @@
         </div>
       </div>
     </section>
+    <!-- Outcomes section  -->
+    <section class="bg-black opacity_8 position-relative overflow-hidden">
+      <img
+        class="position-absolute bottom-0 end-0 w-100"
+        src="./assets/images/svg/circle-shadow.svg"
+        alt="circle-shadow"
+      />
+      <img
+        class="position-absolute top-0 start-0 w-100"
+        src="./assets/images/svg/circle-shadow-2.svg"
+        alt="circle-shadow-2"
+      />
+      <img
+        class="position-absolute bottom-0 end-0"
+        src="./assets/images/svg/box-2.svg"
+        alt="box-2"
+      />
+      <img
+        class="position-absolute top-0 start-0"
+        src="./assets/images/svg/box.svg"
+        alt="box"
+      />
+      <div class="my-container Outcomes position-relative">
+        <h3
+          class="text-white text-center font-xl mb-0 fw-bold font-Raleway lh_120"
+        >
+          Outcomes to <span class="text-orange">expect</span>
+        </h3>
+        <div class="row mt_70 d-flex justify-content-center">
+          <div class="col-lg-4 col-sm-6 px_10">
+            <div class="money-card position-relative">
+              <img
+                class="money-img"
+                src="./assets/images/svg/money.svg"
+                alt="money"
+              />
+              <img
+                class="money-img-2"
+                src="./assets/images/svg/money-2.svg"
+                alt="money-2"
+              />
+              <img
+                class="position-absolute bottom-0 end-0"
+                src="./assets/images/svg/shadow.svg"
+                alt="shadow"
+              />
+              <p
+                class="font-Raleway fw-bold text-white mt-4 font-xs mb-0 lh_117"
+              >
+                Acquire More Clients On Auto-Pilot
+              </p>
+              <p
+                class="opacity_70 text-white font-Raleway fw-normal font-xsm mt_14 mb-0 lh_160"
+              >
+                We’ll build you a fully automated client-acquisition system that
+                attracts complete strangers and turns them into paid invoices
+                and raving fans - without you doing any of the work. 
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 px_10 mt-20">
+            <div class="money-card position-relative">
+              <img
+                class="money-img"
+                src="./assets/images/svg/money.svg"
+                alt="money"
+              />
+              <img
+                class="money-img-2"
+                src="./assets/images/svg/money-2.svg"
+                alt="money-2"
+              />
+              <img
+                class="position-absolute bottom-0 end-0"
+                src="./assets/images/svg/shadow.svg"
+                alt="shadow"
+              />
+              <p
+                class="font-Raleway fw-bold text-white mt-4 font-xs mb-0 lh_117"
+              >
+                Acquire More Clients On Auto-Pilot
+              </p>
+              <p
+                class="opacity_70 text-white font-Raleway fw-normal font-xsm mt_14 mb-0 lh_160"
+              >
+                We’ll build you a fully automated client-acquisition system that
+                attracts complete strangers and turns them into paid invoices
+                and raving fans - without you doing any of the work. 
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 px_10 mt_20">
+            <div class="money-card position-relative">
+              <img
+                class="money-img"
+                src="./assets/images/svg/money.svg"
+                alt="money"
+              />
+              <img
+                class="money-img-2"
+                src="./assets/images/svg/money-2.svg"
+                alt="money-2"
+              />
+              <img
+                class="position-absolute bottom-0 end-0"
+                src="./assets/images/svg/shadow.svg"
+                alt="shadow"
+              />
+              <p
+                class="font-Raleway fw-bold text-white mt-4 font-xs mb-0 lh_117"
+              >
+                Acquire More Clients On Auto-Pilot
+              </p>
+              <p
+                class="opacity_70 text-white font-Raleway fw-normal font-xsm mt_14 mb-0 lh_160"
+              >
+                We’ll build you a fully automated client-acquisition system that
+                attracts complete strangers and turns them into paid invoices
+                and raving fans - without you doing any of the work. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt_50">
+          <button class="get-btn font-Raleway fw-bold font-xsm">
+            Get a price
+          </button>
+        </div>
+      </div>
+    </section>
+    <script> function openNav() {
+            document.getElementById("Menu").style.left = "0%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+        }
+        function closeNav() {
+            document.getElementById("Menu").style.left = "-100%";
+            document.getElementsByTagName("body")[0].style.overflow = "scroll";
+        }</script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
