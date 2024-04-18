@@ -12,12 +12,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-      /* CSS to center the navbar */
-      .navbar-collapse {
-        justify-content: center;
-      }
-    </style>
+  
   </head>
   <body>
     <!-- Navbar -->
@@ -29,7 +24,7 @@
                     <li><a href="/" class="text-white text-decoration-none font-Raleway fw-normal font-xsm">Home</a></li>
                     <li><a href="/" class="text-white text-decoration-none font-Raleway fw-normal font-xsm">Free content</a></li>
                     <li><a href="/" class="text-white text-decoration-none font-Raleway fw-normal font-xsm">Case studies</a></li>
-                    <li> <button class="get-btn button_ms font-Raleway fw-bold font-xsm">
+                    <li> <button class="common-btn button_ms font-Raleway fw-bold font-xsm">
             Contact us
           </button></li>
                 </ul>
@@ -40,7 +35,7 @@
                         <li onclick="closeNav()" class="text-center text-white font-Raleway fw-normal font-xsm">Home</li>
                         <li onclick="closeNav()" class="text-center text-white font-Raleway fw-normal font-xsm">Free content</li>
                         <li onclick="closeNav()" class="text-center text-white font-Raleway fw-normal font-xsm">Case studies</li>
-                        <li> <button class="get-btn font-Raleway fw-bold font-xsm">
+                        <li> <button class="common-btn font-Raleway fw-bold font-xsm">
             Contact us
           </button></li>
                     </ul>
@@ -48,17 +43,61 @@
             </div>
         </div>
     </section>
-    <!-- Header -->
-    <!-- <section> 
-        <div class="bg-black opacity_80">
+    <!-- Header section -->
+    <section class="bg-black opacity_80"> 
+        <div class="my-container header-section">
+            <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="me-4">
+                    <div class="d-flex flex-column">
+                        <p class="font-Raleway fw-semibold font-xsm text-md-start text-center text-white mb-3">We build custom acquisition engines that close new clients, and</p>
+                        <h1 class="font-Raleway fw-bolder font-3xl text-md-start text-center text-orange max_w_560 mb-0">Guarantee profit <span class="text-white">for your Business or your money back.</span></h1>
+                        <p class="font-Raleway fw-normal font-xsm text-md-start text-center text-white max_w_560 mb-0 mt-3">Automate Clients is the answer to completely automating and removing yourself from client acquisition at scale.</p>
+                    </div>
+                    <div class="d-flex justify-content-md-start justify-content-center">
+                        <button class="common-btn font-Raleway fw-bold font-xsm button_mt">
+                     Get a price
+                    </button>
+                    </div>
+                </div>
+                <div class="auther-card mt-md-0 mt-5 position-relative">
+                    <div class="position-absolute orange-card top-0 ">
 
+                    </div>
+                    <div class="d-flex gap-4 align-items-center">
+                        <img class="author-img position-relative" src="./assets/images/png/author.png" alt="author">
+                        <div class="d-flex flex-column">
+                            <h4 class="font-Raleway fw-bold font-sm text-white mb-0">John Doe</h4>
+                            <p class="font-Raleway fw-normal font-xsm text-white opacity_70 mb-0 course_mt">ui/ux designer</p>
+                        </div>
+                    </div>
+                    <p class="auther-pera-mt font-Raleway fw-normal font-xsm text-white opacity_70 mb-0 max_w_340">Eget nam lectus risus sollicitudin sit erat dolor urna nunectus enim amet feugiat lobortis lacus olutpat pellentesque non vulputate facilisis.</p>
+                    <p class="font-Raleway fw-semibold font-xsm text-white clients_mt mb-0">10000+ clients served</p>
+                    <img class="mt_14" src="./assets/images/svg/clients.svg" alt="clients">
+                </div>
+             </div>
         </div>
-    </section> -->
+    </section>
     <!-- acquisition section  -->
-    <section class="bg-white">
+    <section class="bg-white position-relative">
+        <div class="position-absolute w-100 bg-white counter-card top-0 overflow-hidden">
+          <div class="row ">
+              <div class="col-4 px-0">
+                <h4 class="font-Raleway fw-bolder font-2xl text-grey text-center mb-0">250+</h4>
+                <p class="font-Raleway fw-medium font-xs text-blacl opacity_70 text-center mb-0 mt-3">Partners</p>
+              </div>
+            <div class="col-4 px-0">
+                <h4 class="font-Raleway fw-bolder font-2xl text-grey text-center mb-0">12000+</h4>
+                <p class="font-Raleway fw-medium font-xs text-blacl opacity_70 text-center mb-0 mt-3">Appointments booked</p>
+              </div>
+              <div class="col-4 px-0">
+                <h4 class="font-Raleway fw-bolder font-2xl text-grey text-center mb-0">10M+</h4>
+                <p class="font-Raleway fw-medium font-xs text-blacl opacity_70 text-center mb-0 mt-3">Generated</p>
+              </div>
+          </div>
+        </div>
       <div class="my-container acquisition">
         <h3
-          class="text-gray text-center font-xl fw-bold font-Raleway mb-0 lh_120"
+          class="text-grey text-center font-xl fw-bold font-Raleway mb-0 lh_120"
         >
           We build automated
           <span class="text-orange">client acquisition</span> engines
@@ -76,18 +115,18 @@
                 <p class="text-white fw-bold font-Raleway font-lg mb-0">01</p>
               </div>
               <div class="py-4 ps-3 pe_10 h-100">
-                <p class="font-Raleway fw-bold text-gray font-sm mb-0 lh_117">
+                <p class="font-Raleway fw-bold text-grey font-sm mb-0 lh_117">
                   Create A Cold-Friendly Offer
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mt_14 mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mt_14 mb-0 lh_160"
                 >
                   We’ll audit the marketplace and your current marketing to
                   develop a marketing message (offer) that attracts strangers
                   and converts them into new high-ticket clients.
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mb-0 lh_160"
                 >
                   Many of business’ have an OK offer but in order to scale and
                   close complete strangers you need something the market will
@@ -102,24 +141,24 @@
                 <p class="text-white fw-bold font-Raleway font-lg mb-0">02</p>
               </div>
               <div class="py-4 ps-3 pe_10 h-100">
-                <p class="font-Raleway fw-bold text-gray font-sm mb-0 lh_117">
+                <p class="font-Raleway fw-bold text-grey font-sm mb-0 lh_117">
                   Transform Your Marketing Systems
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mt_14 mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mt_14 mb-0 lh_160"
                 >
                   Within 7 days our team will identify and build with you an
                   acquisition system that is guaranteed to be hands-free and
                   profitable at scale.
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mb-0 lh_160"
                 >
                   Everything is custom built based on your offer, niche, budget,
                   expectations etc.
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mb-0 lh_160"
                 >
                   We know the importance of scaling with proven systems and
                   being able to remove the stress of client acquisition is the
@@ -135,18 +174,18 @@
                 <p class="text-white fw-bold font-Raleway font-lg mb-0">03</p>
               </div>
               <div class="py-4 ps-3 pe_10 h-100">
-                <p class="font-Raleway fw-bold text-gray font-sm mb-0 lh_117">
+                <p class="font-Raleway fw-bold text-grey font-sm mb-0 lh_117">
                   Create A Cold-Friendly Offer
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mt_14 mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mt_14 mb-0 lh_160"
                 >
                   Now that we've automated your front-end sales, you can focus
                   on building systems, hiring and delegating in order to close
                   10+ new clients per month.
                 </p>
                 <p
-                  class="opacity_90 text-gray font-Raleway fw-normal font-xs mb-0 lh_160"
+                  class="opacity_90 text-grey font-Raleway fw-normal font-xs mb-0 lh_160"
                 >
                   Never worry about how much revenue you are going to generate
                   again and instead focus on how to be the best leader for your
@@ -158,7 +197,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt-3">
-          <button class="get-btn font-Raleway fw-bold font-xsm mt-1">
+          <button class="common-btn font-Raleway fw-bold font-xsm mt-1">
             Get a price
           </button>
         </div>
@@ -288,10 +327,83 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt_50">
-          <button class="get-btn font-Raleway fw-bold font-xsm">
+          <button class="common-btn font-Raleway fw-bold font-xsm">
             Get a price
           </button>
         </div>
+      </div>
+    </section>
+    <!-- founder section -->
+    <section class="bg-white">
+        <div class="my-container founder">
+            <h3
+          class="text-grey text-center font-xl mb-0 fw-bold font-Raleway lh_120"
+        >
+          A letter from <span class="text-orange">our founder</span>
+          </h3>
+        <div class=" row d-flex justify-content-center james_mt align-items-center">
+<div class="col-md-6 pe-3 d-flex justify-content-md-start justify-content-center">
+  <img class="james-img w-100" src="./assets/images/png/james.png" alt="james">
+</div>
+<div class="col-md-6 ps-md-0 mt-md-0 mt-5">
+  <div class="d-flex flex-column">
+<h4 class="text-orange text-md-start text-center font-sm mb-0 fw-bold font-Raleway">From <span class="text-grey">James Manley</span></h4>
+<p class="text-grey text-md-start text-center mx-md-0 mx-auto font-xs mb-0 fw-normal font-Raleway max_w_560 opacity_90 mt-3">
+    If you aren't a bit curious about finding the best solution for your business, then something would be amiss.  We understand the challenges that come with navigating through a sea of companies in this industry, where many promise the world but fall short on delivery. At Automate Clients, we believe in transparency and tangible results, which is why we stand out from the crowd. We don't just claim to be the best; we prove it through our track record and unwavering commitment to our clients.
+</p>
+<p class="text-grey text-md-start text-center mx-md-0 mx-auto font-xs mb-0 fw-normal font-Raleway max_w_560 opacity_90 mt_6">
+   We take immense pride in our products, our company, and most importantly, the way we engage with our clients.  Our client success process is meticulously crafted to optimize your experience at every step. Our goal is not just to deliver results but to exceed your expectations throughout the journey. Partnering with Automate Clients means more than just a business collaboration; it's an opportunity to elevate your business, amplify your impact, and reap the rewards of your hard work. We would be honored to have you join us on this transformative journey toward success.
+</p>
+<p class="text-grey text-md-start text-center mx-md-0 mx-auto font-sm mb-0 fw-normal font-Raleway max_w_560 opacity_90 succes_mt">
+   To Your Success,
+</p>
+<p class="text-grey text-md-start text-center mx-md-0 mx-auto font-sm mb-0 fw-bold font-Raleway max_w_560 opacity_90 mt-2 pt-1">
+   James Manley Founder, <span class="fw-medium">Automate Clients</span>
+</p>
+</div>
+</div>
+        </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="bg-black opacity_80 position-relative">
+      <div class="position-absolute w-100 bg-black business-card overflow-hidden top-0">
+         <div class="position-relative">
+          <img class="position-absolute shadow-2" src="./assets/images/svg/business-shadow-2.svg" alt="business-shadow-2"/>
+          <img class="position-absolute box-1" src="./assets/images/svg/business-shadow-3.svg" alt="business-shadow-3"/>
+          <img class="position-absolute box-2" src="./assets/images/svg/box-2.svg" alt="box-2"/>
+          <img class="position-absolute box-1" src="./assets/images/svg/box.svg" alt="box" />
+          <img class="position-absolute rounded-left" src="./assets/images/svg/rounded-left.svg" alt="rounded-left">
+          <img class="position-absolute rounded-right" src="./assets/images/svg/rounded-right.svg" alt="rounded-right">
+          <img class="position-absolute left-line" src="./assets/images/svg/border-line.svg" alt="border-line">
+          <img class="position-absolute right-line" src="./assets/images/svg/border-line.svg" alt="border-line">
+          <div class="position-relative">
+             <h3 class="text-white text-center font-xl mb-0 fw-bold font-Raleway max_w_860 mx-auto lh_120">
+          Become a partner today + Join 250+ <span class="text-orange">Business’</span> automating their way to $100k/m profit
+          </h3>
+          <div class="d-flex justify-content-center">
+            <button class="common-btn font-Raleway fw-bold font-xsm business-btn">
+               Get a price
+            </button>
+          </div>
+          </div>
+         </div>
+        </div>
+      <div class="my-container footer">
+<div class="row justify-content-center ">
+<div class="col-6">
+<img src="./assets/images/svg/logo.svg" alt="logo">
+<p class="font-Raleway fw-normal font-xsm text-white opacity_70 max_w_340 mb-0 succes_mt">Nisl eget ornare nec sagittis augue vel cras amet volutpat risuc sagittis augue libero.</p>
+<div class="d-flex justify-content-start align-items-center gap-18 icon_mt">
+<img src="./assets/images/svg/facebook.svg" alt="facebook">
+<img src="./assets/images/svg/instagram.svg" alt="instagram">
+<img src="./assets/images/svg/telegram.svg" alt="telegram">
+</div>
+</div>
+<div class="col-6">
+
+</div>
+</div>
       </div>
     </section>
     <script> function openNav() {
