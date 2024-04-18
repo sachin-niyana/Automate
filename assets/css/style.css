@@ -214,6 +214,22 @@
   padding-top: 276px;
   padding-bottom: 111px;
 }
+.footer-links-gap {
+  gap: 100px;
+}
+.links_mt {
+  margin-top: 74px;
+}
+.sosal-icon {
+  transform: translateY(0px);
+  transition: all 300ms linear;
+}
+.sosal-icon:hover {
+  transform: translateY(-5px) !important;
+}
+.link-gap {
+  margin-top: 20px;
+}
 .max_w_860 {
   max-width: 860px;
 }
@@ -345,6 +361,11 @@
   .footer {
     padding-top: 230px;
     padding-bottom: 111px;
+  }
+}
+@media (max-width: 767.98px) {
+  .links_mt {
+    margin-top: 60px;
   }
 }
 @media (max-width: 575.98px) {
