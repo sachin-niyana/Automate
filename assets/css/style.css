@@ -4,6 +4,7 @@
   font-family: "Raleway", sans-serif !important;
 }
 * {
+  text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
 }
