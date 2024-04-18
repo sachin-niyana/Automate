@@ -53,6 +53,12 @@
   border-radius: 69px;
   border: 1px solid #f46e00;
 }
+.gap_40 {
+  gap: 40px;
+}
+.button_ms {
+  margin-left: 20px;
+}
 .px_10 {
   padding-left: 10px !important ;
   padding-right: 10px !important;
