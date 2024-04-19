@@ -10,6 +10,7 @@
   --orange: #f46e00;
   --light-white: #fffdfc;
   --grey: #343434;
+  --light-black: #040404;
 }
 
 @media (max-width: 991.98px) {
@@ -111,6 +112,9 @@
 .bg-orange {
   background-color: var(--orange) !important;
 }
+.bg-light-black {
+  background-color: var(--light-black) !important;
+}
 
 .lh_120 {
   line-height: 120%;
@@ -120,4 +124,7 @@
 }
 .lh_117 {
   line-height: 117%;
+}
+.lh_118 {
+  line-height: 118%;
 }
