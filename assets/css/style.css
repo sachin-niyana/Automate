@@ -19,6 +19,10 @@
 .mt_14 {
   margin-top: 14px;
 }
+.logo {
+  width: 232px;
+  height: 53px;
+}
 .mt_70 {
   margin-top: 70px !important;
 }
@@ -75,10 +79,14 @@
 }
 
 .money-img {
+  width: 70px;
+  height: 70px;
   opacity: 1;
   transition: all 300ms linear !important;
 }
 .money-img-2 {
+  width: 70px;
+  height: 70px;
   opacity: 0;
   margin-left: -74px;
   transition: all 300ms linear !important;
@@ -164,6 +172,10 @@
 .auther-pera-mt {
   margin-top: 26px;
 }
+.clients-img {
+  width: 184px;
+  height: 40px;
+}
 .clients_mt {
   margin-top: 50px;
 }
@@ -209,6 +221,8 @@
   margin-top: 74px;
 }
 .sosal-icon {
+  width: 31px;
+  height: 30px;
   transform: translateY(0px);
   transition: all 300ms linear;
 }
@@ -365,6 +379,10 @@
   border-radius: 8px;
   max-width: 653px;
   max-height: 358px;
+}
+.stars-img {
+  width: 154px;
+  height: 26px;
 }
 .stars_mt {
   margin-top: 20px;
