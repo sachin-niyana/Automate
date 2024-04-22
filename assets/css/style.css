@@ -519,6 +519,11 @@
 }
 /* Media query for screens with a maximum width of 1199.98px */
 @media (max-width: 1199.98px) {
+  .sticky-card {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+  }
   .good-card-2 {
     transform: translateX(-0%);
   }
@@ -618,6 +623,10 @@
 }
 /* Media query for screens with a maximum width of 767.98px */
 @media (max-width: 767.98px) {
+  .sticky-card {
+    position: static !important; /* Remove sticky positioning */
+    top: auto !important; /* Reset top property */
+  }
   .mt_6 {
     margin-top: 6px;
   }
