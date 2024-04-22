@@ -79,8 +79,8 @@
   width: 50px;
   height: 50px;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 40px;
+  right: 20px;
   z-index: 99;
   background-color: #f46e00 !important;
   color: white;
@@ -374,7 +374,7 @@
   min-width: 367px;
   border-radius: 8px;
   border: 1px solid #1c1c1c;
-  padding: 16px 102px 16px 16px;
+  padding: 15px 102px 15px 16px;
   background: rgba(255, 255, 255, 0.05);
   transition: all 300ms linear;
 }
@@ -469,6 +469,33 @@
   top: 0% !important;
   right: 95.5% !important;
 }
+/*----------------------------------- keyframes -----------------------------------*/
+@keyframes spin {
+  0% {
+    transform: translateY(0px);
+  }
+
+  20% {
+    transform: translateY(-10px);
+  }
+
+  40% {
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* Media query for screens with a maximum width of 1919.98px */
 @media (max-width: 1919.98px) {
   .yellow-shadow {
     top: 18.5%;
@@ -479,6 +506,7 @@
     left: 0% !important;
   }
 }
+/* Media query for screens with a maximum width of 1199.98px */
 @media (max-width: 1199.98px) {
   .good-card-2 {
     transform: translateX(-0%);
@@ -505,6 +533,7 @@
     display: none;
   }
 }
+/* Media query for screens with a maximum width of 991.98px */
 @media (max-width: 991.98px) {
   .mt_20 {
     margin-top: 20px !important;
@@ -554,11 +583,13 @@
     overflow-x: scroll;
   }
 }
+/* Media query for screens with a maximum width of 767.98px */
 @media (max-width: 767.98px) {
   .links_mt {
     margin-top: 60px;
   }
 }
+/* Media query for screens with a maximum width of 575.98px */
 @media (max-width: 575.98px) {
   .mt-20 {
     margin-top: 20px !important;
@@ -598,7 +629,7 @@
     min-width: 272px;
     border-radius: 8px;
     border: 1px solid #1c1c1c;
-    padding: 16px 16px 16px 16px;
+    padding: 15px 16px;
     background: rgba(255, 255, 255, 0.05);
     transition: all 300ms linear;
   }
@@ -606,7 +637,13 @@
   .success-card.active {
     border-radius: 8px;
     border: 1px solid #1c1c1c;
-    padding: 16px 16px 16px 16px;
+    padding: 15px 16px;
     background: #f46e00 !important;
+  }
+}
+/* Media query for screens with a maximum width of 339.98px */
+@media (max-width: 339.98px) {
+  .footer-links-gap {
+    gap: 80px;
   }
 }
