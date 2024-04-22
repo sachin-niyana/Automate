@@ -47,9 +47,16 @@
 
   <body>
     <!-- Back to top -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+    <button
+      class="d-flex justify-content-center align-items-center pb-12"
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+    >
+      &#8686;
+    </button>
     <!-- Header section -->
-    <section class="bg-light-black position-relative">
+    <section class="header-bg position-relative">
       <img
         class="position-absolute header-shadow-left w-100 bottom-0 start-0"
         src="./assets/images/svg/header-shadow-left.svg"
@@ -115,24 +122,24 @@
               onclick="closeNav()"
               type="button"
             >
-              &times;
+              &#10540;
             </button>
             <ul class="mb-0 ps-0 d-flex flex-column gap-3 text-white">
               <li
                 onclick="closeNav()"
-                class="text-center text-white font-Raleway fw-normal font-xsm"
+                class="text-center text-white font-Raleway fw-normal font-20"
               >
                 Home
               </li>
               <li
                 onclick="closeNav()"
-                class="text-center text-white font-Raleway fw-normal font-xsm"
+                class="text-center text-white font-Raleway fw-normal font-20"
               >
                 Free content
               </li>
               <li
                 onclick="closeNav()"
-                class="text-center text-white font-Raleway fw-normal font-xsm"
+                class="text-center text-white font-Raleway fw-normal font-20"
               >
                 Case studies
               </li>
@@ -222,51 +229,49 @@
     </section>
     <!-- acquisition section  -->
     <section class="bg-white position-relative">
-      <div
-        class="position-absolute w-100 bg-white counter-card top-0 overflow-hidden"
-      >
-        <div class="row">
-          <div class="col-4 px-0">
-            <h4
-              class="font-Raleway fw-bolder font-2xl lh_120 text-grey text-center mb-0"
-            >
-              250+
-            </h4>
-            <p
-              class="font-Raleway fw-medium font-xs text-blacl lh_117 opacity_70 text-center mb-0 mt-3"
-            >
-              Partners
-            </p>
-          </div>
-          <div class="col-4 px-0">
-            <h4
-              class="font-Raleway fw-bolder font-2xl lh_120 text-grey text-center mb-0"
-            >
-              12000+
-            </h4>
-            <p
-              class="font-Raleway fw-medium font-xs text-blacl lh_117 opacity_70 text-center mb-0 mt-3"
-            >
-              Appointments booked
-            </p>
-          </div>
-          <div class="col-4 px-0">
-            <h4
-              class="font-Raleway fw-bolder font-2xl lh_120 text-grey text-center mb-0"
-            >
-              10M+
-            </h4>
-            <p
-              class="font-Raleway fw-medium font-xs text-blacl lh_117 opacity_70 text-center mb-0 mt-3"
-            >
-              Generated
-            </p>
+      <div class="my-container acquisition">
+        <div class="w-100 bg-white counter-card top-0 overflow-hidden">
+          <div class="row">
+            <div class="col-4 px-0">
+              <h4
+                class="font-Raleway fw-bolder font-2xl lh_120 text-grey text-center mb-0"
+              >
+                <span class="counter" data-target="250"></span>+
+              </h4>
+              <p
+                class="font-Raleway fw-medium font-xs text-blacl lh_117 opacity_70 text-center mb-0 mt-3"
+              >
+                Partners
+              </p>
+            </div>
+            <div class="col-4 px-0">
+              <h4
+                class="font-Raleway fw-bolder font-2xl lh_120 text-grey text-center mb-0"
+              >
+                <span class="counter" data-target="12000"></span>+
+              </h4>
+              <p
+                class="font-Raleway fw-medium font-xs text-blacl lh_117 opacity_70 text-center mb-0 mt-3"
+              >
+                Appointments booked
+              </p>
+            </div>
+            <div class="col-4 px-0">
+              <h4
+                class="font-Raleway fw-bolder font-2xl lh_120 text-grey text-center mb-0"
+              >
+                <span class="counter" data-target="10"></span>M+
+              </h4>
+              <p
+                class="font-Raleway fw-medium font-xs text-blacl lh_117 opacity_70 text-center mb-0 mt-3"
+              >
+                Generated
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="my-container acquisition">
         <h3
-          class="text-grey text-center font-xl fw-bold font-Raleway mb-0 lh_120"
+          class="text-grey text-center font-xl fw-bold font-Raleway mb-0 lh_120 acquisition_mt"
         >
           We build automated
           <span class="text-orange">client acquisition</span> engines
@@ -365,7 +370,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center mt-3">
+        <div class="d-flex justify-content-center mt-lg-3 mt-5">
           <button class="common-btn font-Raleway lh_117 fw-bold font-xsm mt-1">
             Get a price
           </button>
@@ -1056,7 +1061,7 @@
           class="row d-flex justify-content-center james_mt align-items-center"
         >
           <div
-            class="col-md-6 pe-3 d-flex justify-content-md-start justify-content-center"
+            class="col-lg-6 pe-3 d-flex justify-content-lg-start justify-content-center"
           >
             <img
               class="james-img w-100"
@@ -1064,46 +1069,51 @@
               alt="james"
             />
           </div>
-          <div class="col-md-6 ps-md-0 mt-md-0 mt-5">
+          <div class="col-lg-6 ps-lg-0 mt-lg-0 mt-5">
             <div class="d-flex flex-column">
               <h4
-                class="text-orange text-md-start text-center font-sm mb-0 fw-bold font-Raleway lh_117"
+                class="text-orange text-lg-start text-center font-sm mb-0 fw-bold font-Raleway lh_117"
               >
                 From <span class="text-grey">James Manley</span>
               </h4>
-              <p
-                class="text-grey text-md-start text-center mx-md-0 mx-auto font-xs mb-0 fw-normal font-Raleway max_w_560 opacity_90 lh_160 mt-3"
+              <div
+                class="d-flex flex-lg-column flex-md-row flex-column gap-lg-0 gap-md-4 mt-lg-3 mt-4"
               >
-                If you aren't a bit curious about finding the best solution for
-                your business, then something would be amiss.  We understand the
-                challenges that come with navigating through a sea of companies
-                in this industry, where many promise the world but fall short on
-                delivery. At Automate Clients, we believe in transparency and
-                tangible results, which is why we stand out from the crowd. We
-                don't just claim to be the best; we prove it through our track
-                record and unwavering commitment to our clients.
-              </p>
+                <p
+                  class="text-grey text-md-start text-center mx-md-0 mx-auto font-xs mb-0 fw-normal font-Raleway max_w_560 opacity_90 lh_160"
+                >
+                  If you aren't a bit curious about finding the best solution
+                  for your business, then something would be amiss.  We
+                  understand the challenges that come with navigating through a
+                  sea of companies in this industry, where many promise the
+                  world but fall short on delivery. At Automate Clients, we
+                  believe in transparency and tangible results, which is why we
+                  stand out from the crowd. We don't just claim to be the best;
+                  we prove it through our track record and unwavering commitment
+                  to our clients.
+                </p>
+                <p
+                  class="text-grey text-md-start text-center mx-md-0 mx-auto font-xs mb-0 fw-normal font-Raleway max_w_560 opacity_90 lh_160 mt_6"
+                >
+                  We take immense pride in our products, our company, and most
+                  importantly, the way we engage with our clients.  Our client
+                  success process is meticulously crafted to optimize your
+                  experience at every step. Our goal is not just to deliver
+                  results but to exceed your expectations throughout the
+                  journey. Partnering with Automate Clients means more than just
+                  a business collaboration; it's an opportunity to elevate your
+                  business, amplify your impact, and reap the rewards of your
+                  hard work. We would be honored to have you join us on this
+                  transformative journey toward success.
+                </p>
+              </div>
               <p
-                class="text-grey text-md-start text-center mx-md-0 mx-auto font-xs mb-0 fw-normal font-Raleway max_w_560 opacity_90 lh_160 mt_6"
-              >
-                We take immense pride in our products, our company, and most
-                importantly, the way we engage with our clients.  Our client
-                success process is meticulously crafted to optimize your
-                experience at every step. Our goal is not just to deliver
-                results but to exceed your expectations throughout the journey.
-                Partnering with Automate Clients means more than just a business
-                collaboration; it's an opportunity to elevate your business,
-                amplify your impact, and reap the rewards of your hard work. We
-                would be honored to have you join us on this transformative
-                journey toward success.
-              </p>
-              <p
-                class="text-grey text-md-start text-center mx-md-0 mx-auto font-sm mb-0 fw-normal font-Raleway max_w_560 opacity_90 lh_117 succes_mt"
+                class="text-grey text-lg-start text-center mx-lg-0 mx-auto font-sm mb-0 fw-normal font-Raleway max_w_560 opacity_90 lh_117 succes_mt"
               >
                 To Your Success,
               </p>
               <p
-                class="text-grey text-md-start text-center mx-md-0 mx-auto font-sm mb-0 fw-bold font-Raleway max_w_560 opacity_90 lh_117 mt-2 pt-1"
+                class="text-grey text-lg-start text-center mx-lg-0 mx-auto font-sm mb-0 fw-bold font-Raleway max_w_560 opacity_90 lh_117 mt-2 pt-1"
               >
                 James Manley Founder,
                 <span class="fw-medium">Automate Clients</span>
@@ -1135,70 +1145,68 @@
         src="./assets/images/svg/footer-shadow-top.svg"
         alt="footer-shadow-top"
       />
-      <div
-        class="w-100 bg-black business-card position-absolute overflow-hidden top-0 z-2"
-      >
-        <div class="position-relative">
-          <img
-            class="position-absolute shadow-2"
-            src="./assets/images/svg/business-shadow-2.svg"
-            alt="business-shadow-2"
-          />
-          <img
-            class="position-absolute box-1"
-            src="./assets/images/svg/business-shadow-3.svg"
-            alt="business-shadow-3"
-          />
-          <img
-            class="position-absolute box-2"
-            src="./assets/images/svg/box-2.svg"
-            alt="box-2"
-          />
-          <img
-            class="position-absolute box-1"
-            src="./assets/images/svg/box.svg"
-            alt="box"
-          />
-          <img
-            class="position-absolute rounded-left"
-            src="./assets/images/svg/rounded-left.svg"
-            alt="rounded-left"
-          />
-          <img
-            class="position-absolute rounded-right"
-            src="./assets/images/svg/rounded-right.svg"
-            alt="rounded-right"
-          />
-          <img
-            class="position-absolute left-line"
-            src="./assets/images/svg/border-line.svg"
-            alt="border-line"
-          />
-          <img
-            class="position-absolute right-line"
-            src="./assets/images/svg/border-line.svg"
-            alt="border-line"
-          />
+      <div class="my-container footer position-relative">
+        <div class="w-100 bg-black business-card overflow-hidden top-0 z-2">
           <div class="position-relative">
-            <h3
-              class="text-white text-center font-xl mb-0 fw-bold font-Raleway max_w_885 mx-auto lh_120"
-            >
-              Become a partner today + Join 250+
-              <span class="text-orange">Business’</span> automating their way to
-              $100k/m profit
-            </h3>
-            <div class="d-flex justify-content-center">
-              <button
-                class="common-btn font-Raleway lh_117 fw-bold font-xsm business-btn"
+            <img
+              class="position-absolute shadow-2"
+              src="./assets/images/svg/business-shadow-2.svg"
+              alt="business-shadow-2"
+            />
+            <img
+              class="position-absolute box-1"
+              src="./assets/images/svg/business-shadow-3.svg"
+              alt="business-shadow-3"
+            />
+            <img
+              class="position-absolute box-2"
+              src="./assets/images/svg/box-2.svg"
+              alt="box-2"
+            />
+            <img
+              class="position-absolute box-1"
+              src="./assets/images/svg/box.svg"
+              alt="box"
+            />
+            <img
+              class="position-absolute rounded-left"
+              src="./assets/images/svg/rounded-left.svg"
+              alt="rounded-left"
+            />
+            <img
+              class="position-absolute rounded-right"
+              src="./assets/images/svg/rounded-right.svg"
+              alt="rounded-right"
+            />
+            <img
+              class="position-absolute left-line"
+              src="./assets/images/svg/border-line.svg"
+              alt="border-line"
+            />
+            <img
+              class="position-absolute right-line"
+              src="./assets/images/svg/border-line.svg"
+              alt="border-line"
+            />
+            <div class="position-relative">
+              <h3
+                class="text-white text-center font-xl mb-0 fw-bold font-Raleway max_w_885 mx-auto lh_120"
               >
-                Get a price
-              </button>
+                Become a partner today + Join 250+
+                <span class="text-orange">Business’</span> automating their way
+                to $100k/m profit
+              </h3>
+              <div class="d-flex justify-content-center">
+                <button
+                  class="common-btn font-Raleway lh_117 fw-bold font-xsm business-btn"
+                >
+                  Get a price
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="my-container footer position-relative">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center footer_mt">
           <div class="col-md-6">
             <div class="d-flex justify-content-md-start justify-content-center">
               <img class="logo" src="./assets/images/svg/logo.svg" alt="logo" />
@@ -1320,6 +1328,24 @@
         </p>
       </div>
     </section>
+    <!-- counter -->
+    <script>
+      const counters = document.querySelectorAll(".counter");
+
+      counters.forEach((counter) => {
+        counter.innerText = "0";
+        const updateCounter = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText;
+          const increment = target / 200;
+          if (count < target) {
+            counter.innerText = `${Math.ceil(count + increment)}`;
+            setTimeout(updateCounter, 1);
+          } else counter.innerText = target;
+        };
+        updateCounter();
+      });
+    </script>
     <script>
       // Add event listener for scroll event on window
       window.onscroll = function () {

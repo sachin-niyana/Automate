@@ -16,6 +16,9 @@
   padding-right: 12px !important;
 }
 /*---------------------------------- common ----------------------------------*/
+::-webkit-scrollbar {
+  display: none;
+}
 .mt_14 {
   margin-top: 14px;
 }
@@ -76,6 +79,7 @@
 #myBtn {
   display: none;
   border: none;
+  font-size: 48px;
   width: 50px;
   height: 50px;
   position: fixed;
@@ -93,9 +97,11 @@
 #myBtn:hover {
   box-shadow: 0px 0px 8px #000000;
 }
+.pb-12 {
+  padding-bottom: 12px;
+}
 /*---------------------------- acquisition css ----------------------------*/
 .acquisition {
-  padding-top: 235px;
   padding-bottom: 150px;
 }
 
@@ -142,9 +148,7 @@
   max-width: 1140px;
   padding: 40px 0px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
-  margin-top: -94px;
-  left: 50% !important;
-  transform: translatex(-50%);
+  transform: translatey(-50%);
 }
 /*--------------------------------------------- outcomes css ---------------------------------------------*/
 .Outcomes {
@@ -173,6 +177,13 @@
 .header-section {
   padding-top: 100px;
   padding-bottom: 213px;
+}
+.header-bg {
+  background-image: url("/assets/images/png/header-bg.png");
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .header-shadow-left {
   max-width: 650px;
@@ -232,7 +243,6 @@
 }
 /*----------------------------- footer css -----------------------------*/
 .footer {
-  padding-top: 276px;
   padding-bottom: 111px;
 }
 .footer-links-gap {
@@ -265,10 +275,8 @@
   border-radius: 30px;
   max-width: 1140px;
   padding: 60px 12px;
-  margin-top: -155px;
   border-bottom: 8px solid #f46e00;
-  left: 50% !important;
-  transform: translatex(-50%);
+  transform: translatey(-50%) !important;
 }
 .left-line {
   left: 0;
@@ -324,6 +332,9 @@
   padding-top: 12px !important;
   padding-bottom: 14px !important;
 }
+.font-20 {
+  font-size: 20px;
+}
 .menu {
   font-size: 38px;
   font-family: sans-serif;
@@ -359,8 +370,8 @@
   -webkit-text-stroke-width: 0.7px;
 }
 .closbtn {
-  top: 20px;
-  right: 20px;
+  top: 18px;
+  right: 12px;
 }
 /*--------------------------------- Success css ---------------------------------*/
 .success {
@@ -524,17 +535,32 @@
     display: none;
   }
   .yellow-shadow-3 {
-    display: none;
+    top: 0% !important;
+    right: 50% !important;
+    transform: translateX(50%);
   }
   .yellow-shadow-4 {
-    display: none;
+    top: 0% !important;
+    right: 50% !important;
+    transform: translateX(50%);
   }
   .yellow-shadow-5 {
-    display: none;
+    top: 0% !important;
+    right: 50% !important;
+    transform: translateX(50%);
   }
 }
 /* Media query for screens with a maximum width of 991.98px */
 @media (max-width: 991.98px) {
+  .footer_mt {
+    margin-top: -70px !important;
+  }
+  .acquisition_mt {
+    margin-top: -30px !important;
+  }
+  .mt_6 {
+    margin-top: 0px;
+  }
   .mt_20 {
     margin-top: 20px !important;
   }
@@ -553,7 +579,6 @@
     padding-bottom: 80px;
   }
   .acquisition {
-    padding-top: 200px !important;
     padding-bottom: 80px !important;
   }
   .header-section {
@@ -575,7 +600,7 @@
     padding-bottom: 250px;
   }
   .footer {
-    padding-top: 230px;
+    /* padding-top: 230px; */
     padding-bottom: 111px;
   }
   .tab-content-container {
@@ -583,14 +608,28 @@
     overflow-x: scroll;
   }
 }
+.success-card {
+  min-width: 364px;
+  border-radius: 8px;
+  border: 1px solid #1c1c1c;
+  padding: 15px 95px 15px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 300ms linear;
+}
 /* Media query for screens with a maximum width of 767.98px */
 @media (max-width: 767.98px) {
+  .mt_6 {
+    margin-top: 6px;
+  }
   .links_mt {
     margin-top: 60px;
   }
 }
 /* Media query for screens with a maximum width of 575.98px */
 @media (max-width: 575.98px) {
+  .footer_mt {
+    margin-top: -100px !important;
+  }
   .mt-20 {
     margin-top: 20px !important;
   }
@@ -602,7 +641,6 @@
     padding-bottom: 60px;
   }
   .acquisition {
-    padding-top: 150px !important;
     padding-bottom: 60px !important;
   }
   .header-section {
@@ -614,7 +652,7 @@
     padding-bottom: 200px;
   }
   .footer {
-    padding-top: 200px;
+    /* padding-top: 200px; */
     padding-bottom: 60px;
   }
   .success {
@@ -641,6 +679,28 @@
     background: #f46e00 !important;
   }
 }
+/* Media query for screens with a maximum width of 424.98px */
+@media (max-width: 424.98px) {
+  .yellow-shadow-3 {
+    width: 100%;
+    top: 0% !important;
+    right: 50% !important;
+    transform: translateX(50%);
+  }
+  .yellow-shadow-4 {
+    width: 100%;
+    top: 0% !important;
+    right: 50% !important;
+    transform: translateX(50%);
+  }
+  .yellow-shadow-5 {
+    width: 100%;
+    top: 0% !important;
+    right: 50% !important;
+    transform: translateX(50%);
+  }
+}
+
 /* Media query for screens with a maximum width of 339.98px */
 @media (max-width: 339.98px) {
   .footer-links-gap {
