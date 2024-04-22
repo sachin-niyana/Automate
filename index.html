@@ -46,6 +46,8 @@
   </head>
 
   <body>
+    <!-- Back to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
     <!-- Header section -->
     <section class="bg-light-black position-relative">
       <img
@@ -1129,7 +1131,7 @@
         alt="footer-shadow-left"
       />
       <img
-        class="position-absolute mt-5 start-0"
+        class="position-absolute footer-shadow-top mt-5 start-0 w-100"
         src="./assets/images/svg/footer-shadow-top.svg"
         alt="footer-shadow-top"
       />
@@ -1318,6 +1320,35 @@
         </p>
       </div>
     </section>
+    <script>
+      // Add event listener for scroll event on window
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      // Function to handle scroll behavior
+      function scrollFunction() {
+        // Check if the user has scrolled more than 20px from the top of the document
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          // If scrolled more than 20px, display the button
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          // If not scrolled more than 20px, hide the button
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      // Function to scroll to the top of the document when the button is clicked
+      function topFunction() {
+        // For Safari
+        document.body.scrollTop = 0;
+        // For Chrome, Firefox, IE and Opera
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
     <!-- Script for tab functionality -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -1357,6 +1388,13 @@
         document.getElementsByTagName("body")[0].style.overflow = "scroll";
       }
     </script>
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- Bootstrap Bundle JavaScript -->
     <script
