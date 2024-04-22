@@ -220,9 +220,11 @@
 .links_mt {
   margin-top: 74px;
 }
-.sosal-icon {
+.icons-img {
   width: 31px;
   height: 30px;
+}
+.sosal-icon {
   transform: translateY(0px);
   transition: all 300ms linear;
 }
