@@ -512,7 +512,6 @@
 /*------------------------------------- media-query -------------------------------------*/
 @media (max-width: 1919.98px) {
   .yellow-shadow {
-    top: 18.5%;
     right: 0% !important;
   }
   .yellow-shadow-2 {
@@ -542,17 +541,14 @@
     display: none;
   }
   .yellow-shadow-3 {
-    top: 0% !important;
     right: 50% !important;
     transform: translateX(50%);
   }
   .yellow-shadow-4 {
-    top: 0% !important;
     right: 50% !important;
     transform: translateX(50%);
   }
   .yellow-shadow-5 {
-    top: 0% !important;
     right: 50% !important;
     transform: translateX(50%);
   }
@@ -575,10 +571,6 @@
   }
   .number-card:hover {
     transform: translateY(0px);
-    box-shadow: 0px 0px 15px #d2b993;
-    border-bottom: 6px solid #f46e00;
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.05);
   }
   .outcomes {
     padding-top: 80px;
@@ -612,14 +604,10 @@
     max-width: 100%;
     overflow-x: scroll;
   }
-}
-.success-card {
-  min-width: 364px;
-  border-radius: 8px;
-  border: 1px solid #1c1c1c;
-  padding: 15px 95px 15px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  transition: all 300ms linear;
+  .success-card {
+    min-width: 364px;
+    padding: 15px 95px 15px 16px;
+  }
 }
 @media (max-width: 767.98px) {
   .money_mt {
@@ -638,17 +626,10 @@
 }
 @media (max-width: 575.98px) {
   .orange-card {
-    width: 24px;
-    height: 51px;
     left: 58px;
-    background: #f46e00;
   }
   .counter-card {
-    border-radius: 15px;
-    max-width: 1140px;
     padding: 24px 0px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
-    transform: translatey(-50%);
   }
   .money_btn {
     margin-top: 48px;
@@ -659,18 +640,16 @@
     height: 40px;
   }
   .money-card {
-    border: 1px solid #2c2b2a;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.05);
     padding: 20px;
-    transition: all 300ms linear;
   }
   .business-card {
-    border-radius: 30px;
-    max-width: 1140px;
     padding: 40px 12px;
-    border-bottom: 8px solid #f46e00;
-    transform: translatey(-50%) !important;
+  }
+  .rounded-right {
+    bottom: -40px;
+  }
+  .rounded-left {
+    bottom: -40px;
   }
   .james_mt {
     margin-top: 40px !important;
@@ -679,11 +658,7 @@
     margin-top: 40px !important;
   }
   .auther-card {
-    border: 2px solid #232222;
-    border-radius: 8px;
     padding: 40px 20px;
-    border-bottom: 6px solid #f46e00;
-    background: rgba(255, 255, 255, 0.05);
   }
   .footer_mt {
     margin-top: -100px !important;
@@ -721,39 +696,23 @@
     padding-bottom: 60px;
   }
   .success-card {
-    min-width: 272px;
-    border-radius: 8px;
-    border: 1px solid #1c1c1c;
+    min-width: 284px;
     padding: 15px 16px;
-    background: rgba(255, 255, 255, 0.05);
-    transition: all 300ms linear;
   }
   .success-card:hover,
   .success-card.active {
-    border-radius: 8px;
-    border: 1px solid #1c1c1c;
     padding: 15px 16px;
-    background: #f46e00 !important;
   }
 }
 @media (max-width: 424.98px) {
   .yellow-shadow-3 {
     width: 100%;
-    top: 0% !important;
-    right: 50% !important;
-    transform: translateX(50%);
   }
   .yellow-shadow-4 {
     width: 100%;
-    top: 0% !important;
-    right: 50% !important;
-    transform: translateX(50%);
   }
   .yellow-shadow-5 {
     width: 100%;
-    top: 0% !important;
-    right: 50% !important;
-    transform: translateX(50%);
   }
 }
 @media (max-width: 339.98px) {
