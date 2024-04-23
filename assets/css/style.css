@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 /* common css */
-.font-Raleway {
+.font_raleway {
   font-family: "Raleway", sans-serif !important;
 }
 * {
@@ -8,10 +8,9 @@
   list-style-type: none;
   box-sizing: border-box;
 }
-.my-container {
+.custum-container {
   max-width: 1164px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto;
   padding-left: 12px !important ;
   padding-right: 12px !important;
 }
@@ -19,20 +18,20 @@
 ::-webkit-scrollbar {
   display: none;
 }
-.mt_14 {
+.offer_pera_mt {
   margin-top: 14px;
 }
 .logo {
   width: 232px;
   height: 53px;
 }
-.mt_70 {
+.money_mt {
   margin-top: 70px !important;
 }
-.mt_50 {
+.money_btn {
   margin-top: 50px;
 }
-.mt_120 {
+.simple_mt {
   margin-top: 120px !important;
 }
 .pe_10 {
@@ -76,7 +75,7 @@
   padding-right: 10px !important;
 }
 /*----------------------------- back to top -----------------------------*/
-#myBtn {
+#back_to_top {
   display: none;
   border: none;
   font-size: 48px;
@@ -94,7 +93,7 @@
   animation: spin 2s linear infinite;
   transition: all 300ms linear;
 }
-#myBtn:hover {
+#back_to_top:hover {
   box-shadow: 0px 0px 8px #000000;
 }
 .pb-12 {
@@ -151,7 +150,7 @@
   transform: translatey(-50%);
 }
 /*--------------------------------------------- outcomes css ---------------------------------------------*/
-.Outcomes {
+.outcomes {
   padding-top: 100px;
   padding-bottom: 90px;
 }
@@ -227,8 +226,11 @@
   padding-top: 130px;
   padding-bottom: 365px;
 }
-.mt_6 {
+.pera_mt {
   margin-top: 6px;
+}
+.james_font {
+  font-size: 20px;
 }
 .james-img {
   max-width: 423px;
@@ -449,6 +451,7 @@
 }
 .good-card {
   max-width: 560px;
+  min-height: 135px;
   border-radius: 10px;
   border-bottom: 4px solid #858585;
   background: white;
@@ -506,7 +509,7 @@
     transform: translateY(0px);
   }
 }
-/* Media query for screens with a maximum width of 1919.98px */
+/*------------------------------------- media-query -------------------------------------*/
 @media (max-width: 1919.98px) {
   .yellow-shadow {
     top: 18.5%;
@@ -517,7 +520,6 @@
     left: 0% !important;
   }
 }
-/* Media query for screens with a maximum width of 1199.98px */
 @media (max-width: 1199.98px) {
   .sticky-card {
     position: -webkit-sticky !important;
@@ -555,7 +557,6 @@
     transform: translateX(50%);
   }
 }
-/* Media query for screens with a maximum width of 991.98px */
 @media (max-width: 991.98px) {
   .footer_mt {
     margin-top: -70px !important;
@@ -563,13 +564,13 @@
   .acquisition_mt {
     margin-top: -30px !important;
   }
-  .mt_6 {
+  .pera_mt {
     margin-top: 0px;
   }
   .mt_20 {
     margin-top: 20px !important;
   }
-  .mt_120 {
+  .simple_mt {
     margin-top: 80px !important;
   }
   .number-card:hover {
@@ -579,7 +580,7 @@
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.05);
   }
-  .Outcomes {
+  .outcomes {
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -605,7 +606,6 @@
     padding-bottom: 250px;
   }
   .footer {
-    /* padding-top: 230px; */
     padding-bottom: 111px;
   }
   .tab-content-container {
@@ -621,31 +621,80 @@
   background: rgba(255, 255, 255, 0.05);
   transition: all 300ms linear;
 }
-/* Media query for screens with a maximum width of 767.98px */
 @media (max-width: 767.98px) {
-  .sticky-card {
-    position: static !important; /* Remove sticky positioning */
-    top: auto !important; /* Reset top property */
+  .money_mt {
+    margin-top: 50px !important;
   }
-  .mt_6 {
+  .sticky-card {
+    position: static !important;
+    top: auto !important;
+  }
+  .pera_mt {
     margin-top: 6px;
   }
   .links_mt {
     margin-top: 60px;
   }
 }
-/* Media query for screens with a maximum width of 575.98px */
 @media (max-width: 575.98px) {
+  .orange-card {
+    width: 24px;
+    height: 51px;
+    left: 58px;
+    background: #f46e00;
+  }
+  .counter-card {
+    border-radius: 15px;
+    max-width: 1140px;
+    padding: 24px 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+    transform: translatey(-50%);
+  }
+  .money_btn {
+    margin-top: 48px;
+  }
+  #back_to_top {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .money-card {
+    border: 1px solid #2c2b2a;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    transition: all 300ms linear;
+  }
+  .business-card {
+    border-radius: 30px;
+    max-width: 1140px;
+    padding: 40px 12px;
+    border-bottom: 8px solid #f46e00;
+    transform: translatey(-50%) !important;
+  }
+  .james_mt {
+    margin-top: 40px !important;
+  }
+  .money_mt {
+    margin-top: 40px !important;
+  }
+  .auther-card {
+    border: 2px solid #232222;
+    border-radius: 8px;
+    padding: 40px 20px;
+    border-bottom: 6px solid #f46e00;
+    background: rgba(255, 255, 255, 0.05);
+  }
   .footer_mt {
     margin-top: -100px !important;
   }
   .mt-20 {
     margin-top: 20px !important;
   }
-  .mt_120 {
+  .simple_mt {
     margin-top: 60px !important;
   }
-  .Outcomes {
+  .outcomes {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -661,7 +710,6 @@
     padding-bottom: 200px;
   }
   .footer {
-    /* padding-top: 200px; */
     padding-bottom: 60px;
   }
   .success {
@@ -688,7 +736,6 @@
     background: #f46e00 !important;
   }
 }
-/* Media query for screens with a maximum width of 424.98px */
 @media (max-width: 424.98px) {
   .yellow-shadow-3 {
     width: 100%;
@@ -709,8 +756,6 @@
     transform: translateX(50%);
   }
 }
-
-/* Media query for screens with a maximum width of 339.98px */
 @media (max-width: 339.98px) {
   .footer-links-gap {
     gap: 80px;
